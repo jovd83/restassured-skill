@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session State"
+  short_description: "Persist resumable API work state"
+  default_prompt: "Use $restassured-documentation-session-state to persist a resumable checkpoint for ongoing API testing work."

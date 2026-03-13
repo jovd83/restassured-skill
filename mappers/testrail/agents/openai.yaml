@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map TestRail IDs"
+  short_description: "Map TestRail IDs to local API cases"
+  default_prompt: "Use $restassured-mapper-testrail to map TestRail IDs back to local API test cases."

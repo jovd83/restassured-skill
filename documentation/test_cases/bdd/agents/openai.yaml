@@ -1,0 +1,4 @@
+interface:
+  display_name: "BDD Test Cases"
+  short_description: "Write API scenarios in Gherkin BDD"
+  default_prompt: "Use $restassured-documentation-bdd to document API scenarios in Gherkin format."

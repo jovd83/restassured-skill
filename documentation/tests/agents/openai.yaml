@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Code Documentation"
+  short_description: "Document Rest Assured automation code"
+  default_prompt: "Use $restassured-documentation-tests to add human-readable documentation to Rest Assured automation code."

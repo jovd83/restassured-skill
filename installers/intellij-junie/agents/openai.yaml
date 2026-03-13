@@ -1,0 +1,4 @@
+interface:
+  display_name: "IntelliJ + Junie Setup"
+  short_description: "Set up IntelliJ for Rest Assured work"
+  default_prompt: "Use $restassured-installer-intellij-junie to set up IntelliJ for Rest Assured API testing."

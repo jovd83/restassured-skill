@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bootstrap Rest Assured"
+  short_description: "Scaffold Rest Assured test modules"
+  default_prompt: "Use $restassured-bootstrap to scaffold or retrofit a Rest Assured test module."

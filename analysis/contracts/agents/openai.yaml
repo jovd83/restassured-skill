@@ -1,0 +1,4 @@
+interface:
+  display_name: "REST Contract Analysis"
+  short_description: "Extract API tests from OpenAPI specs"
+  default_prompt: "Use $restassured-analysis-contracts to derive API scenarios from an OpenAPI or Swagger contract."

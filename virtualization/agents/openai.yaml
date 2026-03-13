@@ -1,0 +1,4 @@
+interface:
+  display_name: "Service Virtualization"
+  short_description: "Stub downstream APIs with WireMock"
+  default_prompt: "Use $restassured-virtualization to stub downstream services and fault conditions."

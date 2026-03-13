@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assertion Strength Report"
+  short_description: "Rate the quality of Rest Assured test assertions"
+  default_prompt: "Use $restassured-documentation-assertion-strength-report to assess the strength of the current Rest Assured tests and call out weak assertion patterns."

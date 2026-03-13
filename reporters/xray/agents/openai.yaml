@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report to Xray"
+  short_description: "Publish API results to Xray"
+  default_prompt: "Use $restassured-reporter-xray to publish API execution results to Xray."

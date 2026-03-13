@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Test Cases"
+  short_description: "Write API cases in structured TDD form"
+  default_prompt: "Use $restassured-documentation-tdd to document API test cases in TDD format."

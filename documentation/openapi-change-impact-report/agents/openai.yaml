@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenAPI Change Impact"
+  short_description: "Diff two API contracts and map changes to tests"
+  default_prompt: "Use $restassured-documentation-openapi-change-impact-report to compare two OpenAPI or Swagger contracts and map the impact back to current Rest Assured coverage."

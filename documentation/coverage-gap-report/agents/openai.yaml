@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coverage Gap Report"
+  short_description: "Highlight uncovered, partial, and drift-only API coverage"
+  default_prompt: "Use $restassured-documentation-coverage-gap-report to summarize the biggest API coverage gaps from the current traceability and mismatch artifacts."

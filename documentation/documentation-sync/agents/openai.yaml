@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentation Sync"
+  short_description: "Keep narrative API docs aligned with tests and traceability"
+  default_prompt: "Use $restassured-documentation-sync to audit and repair narrative documentation drift across BDD, TDD, plain-text, or mixed API test documentation."

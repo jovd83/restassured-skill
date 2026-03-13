@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract Mismatches"
+  short_description: "Document API contract drift against live runtime behavior"
+  default_prompt: "Use $restassured-documentation-contract-mismatches to document differences between the API contract and observed runtime behavior."

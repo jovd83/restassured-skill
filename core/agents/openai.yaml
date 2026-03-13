@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rest Assured Core"
+  short_description: "Implement Rest Assured API tests"
+  default_prompt: "Use $restassured-core to implement, refactor, or debug Rest Assured API tests."

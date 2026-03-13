@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report to TestRail"
+  short_description: "Publish API results to TestRail"
+  default_prompt: "Use $restassured-reporter-testrail to publish API execution results to TestRail."

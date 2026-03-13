@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testing Handover"
+  short_description: "Summarize testing work and open risks"
+  default_prompt: "Use $restassured-documentation-handover to produce a concise handover for Rest Assured testing work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Traceability Report"
+  short_description: "Map endpoints to Rest Assured tests and documentation artifacts"
+  default_prompt: "Use $restassured-documentation-traceability-report to map API endpoints and operations to coverage rows, Rest Assured tests, and documentation references such as BDD, TDD, or plain-text cases."

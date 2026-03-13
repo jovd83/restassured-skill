@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coverage Plan Generation"
+  short_description: "Generate API scenario coverage plans"
+  default_prompt: "Use $restassured-coverage-plan-generation to build an API test coverage matrix from approved inputs."

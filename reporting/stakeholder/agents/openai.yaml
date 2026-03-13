@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stakeholder Reporting"
+  short_description: "Summarize API results for stakeholders"
+  default_prompt: "Use $restassured-reporting-stakeholder to summarize API test results for stakeholders."

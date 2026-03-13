@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coverage Plan Auto-Sync"
+  short_description: "Sync coverage plans and traceability"
+  default_prompt: "Use $restassured-coverage-plan-auto-sync to keep API coverage plans and docs in sync."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rest Assured Orchestrator"
+  short_description: "Route Rest Assured testing workflows"
+  default_prompt: "Use $restassured-orchestrator to route a Rest Assured testing request."

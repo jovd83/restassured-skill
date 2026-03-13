@@ -1,0 +1,22 @@
+# Publish surface
+dry-run/
+
+# Python cache and local environments
+**/__pycache__/
+**/*.pyc
+.venv/
+venv/
+.python-version
+
+# IDE state
+.idea/
+.vscode/
+
+# Build output
+target/
+dist/
+build/
+
+# OS noise
+.DS_Store
+Thumbs.db

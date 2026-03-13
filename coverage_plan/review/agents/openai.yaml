@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coverage Plan Review"
+  short_description: "Review and approve API coverage plans"
+  default_prompt: "Use $restassured-coverage-plan-review to present an API coverage plan for approval."

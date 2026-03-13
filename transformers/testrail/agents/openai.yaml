@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transform for TestRail"
+  short_description: "Export API cases to TestRail format"
+  default_prompt: "Use $restassured-transformer-testrail to export API test cases into a TestRail-friendly format."

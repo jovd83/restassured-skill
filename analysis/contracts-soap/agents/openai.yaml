@@ -1,0 +1,4 @@
+interface:
+  display_name: "SOAP Contract Analysis"
+  short_description: "Extract API tests from WSDL contracts"
+  default_prompt: "Use $restassured-analysis-contracts-soap to derive SOAP service scenarios from a WSDL contract."

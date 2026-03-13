@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transform for Zephyr"
+  short_description: "Export API cases to Zephyr format"
+  default_prompt: "Use $restassured-transformer-zephyr to export API test cases into a Zephyr-friendly format."

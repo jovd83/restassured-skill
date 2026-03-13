@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transform for TestLink"
+  short_description: "Export API cases to TestLink format"
+  default_prompt: "Use $restassured-transformer-testlink to export API test cases into a TestLink-friendly format."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Zephyr IDs"
+  short_description: "Map Zephyr IDs to local API cases"
+  default_prompt: "Use $restassured-mapper-zephyr to map Zephyr IDs back to local API test cases."

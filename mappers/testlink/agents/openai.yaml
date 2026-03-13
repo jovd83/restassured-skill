@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map TestLink IDs"
+  short_description: "Map TestLink IDs to local API cases"
+  default_prompt: "Use $restassured-mapper-testlink to map TestLink IDs back to local API test cases."

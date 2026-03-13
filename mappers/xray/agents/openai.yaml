@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Xray IDs"
+  short_description: "Map Xray IDs to local API cases"
+  default_prompt: "Use $restassured-mapper-xray to map Xray issue keys back to local API test cases."

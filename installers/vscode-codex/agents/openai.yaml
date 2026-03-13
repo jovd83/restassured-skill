@@ -1,0 +1,4 @@
+interface:
+  display_name: "VS Code + Codex Setup"
+  short_description: "Set up VS Code for Rest Assured work"
+  default_prompt: "Use $restassured-installer-vscode-codex to set up VS Code for Rest Assured API testing."

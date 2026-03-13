@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report Bundle"
+  short_description: "Refresh the full Rest Assured reporting bundle and HTML portal"
+  default_prompt: "Use $restassured-documentation-report-bundle to regenerate the traceability portal, mismatch portal, coverage-gap report, assertion-strength report, and optional OpenAPI change-impact report for the current module."

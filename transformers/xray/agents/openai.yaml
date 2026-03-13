@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transform for Xray"
+  short_description: "Export API cases to Xray format"
+  default_prompt: "Use $restassured-transformer-xray to export API test cases into an Xray-friendly format."

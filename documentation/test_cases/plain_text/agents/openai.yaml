@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plain Text Test Cases"
+  short_description: "Write concise API test case summaries"
+  default_prompt: "Use $restassured-documentation-plaintext to document API scenarios in concise plain text."

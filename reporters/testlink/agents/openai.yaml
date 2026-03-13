@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report to TestLink"
+  short_description: "Publish API results to TestLink"
+  default_prompt: "Use $restassured-reporter-testlink to publish API execution results to TestLink."

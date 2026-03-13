@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report to Zephyr"
+  short_description: "Publish API results to Zephyr"
+  default_prompt: "Use $restassured-reporter-zephyr to publish API execution results to Zephyr."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rest Assured Skill"
+  short_description: "Rest Assured API testing skill family"
+  default_prompt: "Use $restassured-skill to route or complete a Rest Assured API testing task."

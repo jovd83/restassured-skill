@@ -1,0 +1,4 @@
+interface:
+  display_name: "Requirements Analysis"
+  short_description: "Extract API tests from requirements"
+  default_prompt: "Use $restassured-analysis-requirements to derive API behaviors from epics, stories, or acceptance criteria."

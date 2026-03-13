@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rest Assured CI"
+  short_description: "Configure Rest Assured CI pipelines"
+  default_prompt: "Use $restassured-ci to configure or troubleshoot Rest Assured test execution in CI."

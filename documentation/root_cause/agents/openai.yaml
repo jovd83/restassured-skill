@@ -1,0 +1,4 @@
+interface:
+  display_name: "Root Cause Analysis"
+  short_description: "Explain failing Rest Assured test runs"
+  default_prompt: "Use $restassured-documentation-root-cause to analyze and explain a failing Rest Assured test run."
