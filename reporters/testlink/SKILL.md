@@ -1,6 +1,9 @@
 ---
 name: restassured-reporter-testlink
 description: Use when Codex needs to report Rest Assured API test execution results back to TestLink through its API using local case mappings and execution evidence.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Report Results To TestLink

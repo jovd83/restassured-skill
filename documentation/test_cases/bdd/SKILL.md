@@ -1,6 +1,9 @@
 ---
 name: restassured-documentation-bdd
-description: Use when Codex needs to document Rest Assured API scenarios in Gherkin BDD form from approved requirements, contracts, or coverage plans.
+description: Legacy Rest Assured-specific alias for BDD case formatting. Prefer the standalone `test-artifact-export-skill` skill for Gherkin, BDD, and export-ready case rendering, and use this only when Rest Assured-local conventions must be preserved explicitly.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Document Test Cases In BDD

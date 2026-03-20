@@ -1,6 +1,9 @@
 ---
 name: restassured-mapper-testrail
 description: Use when Codex needs to map TestRail case IDs or execution references back to local Rest Assured API documentation or automation files.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Map TestRail IDs

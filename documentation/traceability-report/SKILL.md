@@ -1,6 +1,9 @@
 ---
 name: restassured-documentation-traceability-report
 description: Use when Codex needs to produce a traceability report that maps API endpoints, methods, operations, coverage rows, Rest Assured tests, and narrative documentation references so humans and later agents can see exactly what is covered across BDD, TDD, plain-text, mixed, or absent documentation.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Build Traceability Report

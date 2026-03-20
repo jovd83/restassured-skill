@@ -1,6 +1,9 @@
 ---
 name: restassured-transformer-testlink
-description: Use when Codex needs to transform Rest Assured API test cases from natural language or markdown into a TestLink-friendly import format.
+description: Legacy Rest Assured-specific alias for TestLink case export. Prefer the standalone `test-artifact-export-skill` skill for transforming approved test cases into TestLink-ready artifacts, and use this only when Rest Assured-local conventions must be preserved explicitly.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Transform Cases For TestLink

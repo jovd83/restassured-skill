@@ -1,6 +1,9 @@
 ---
 name: restassured-documentation-report-bundle
 description: Use when Codex needs to generate or refresh a bundled Rest Assured reporting set, including traceability, contract mismatches, coverage gaps, OpenAPI change impact, assertion strength, and the human-friendly HTML portal, with support for BDD, TDD, plain-text, mixed, or absent narrative documentation.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Build Report Bundle

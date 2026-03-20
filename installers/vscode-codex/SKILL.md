@@ -1,6 +1,9 @@
 ---
 name: restassured-installer-vscode-codex
 description: Use when Codex needs to set up VS Code for Rest Assured API testing with Java, Maven or Gradle, JUnit 5, and Codex-driven workflow support.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Install Rest Assured In VS Code

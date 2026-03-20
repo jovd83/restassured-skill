@@ -1,6 +1,9 @@
 ---
 name: restassured-analysis-requirements
 description: Use when Codex needs to extract testable API behavior from epics, user stories, acceptance criteria, tickets, markdown docs, or other prose requirements before generating Rest Assured scenarios.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Analyze Requirements

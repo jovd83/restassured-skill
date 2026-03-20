@@ -1,6 +1,9 @@
 ---
 name: restassured-documentation-tdd
-description: Use when Codex needs to document Rest Assured API test cases in a structured TDD format with direct traceability to requirements, contracts, and automation code.
+description: Legacy Rest Assured-specific alias for TDD-style case documentation. Prefer the standalone `test-artifact-export-skill` skill for formatting approved test cases or building export-ready artifacts, and use this only when Rest Assured-local conventions must be preserved explicitly.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Document Test Cases In TDD

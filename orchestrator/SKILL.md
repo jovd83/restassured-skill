@@ -1,6 +1,9 @@
 ---
 name: restassured-orchestrator
 description: Use when Codex receives a generic Rest Assured or service-testing request and must route the work into planning, implementation, documentation, execution, CI, virtualization, or test-management flows.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Rest Assured Orchestrator
@@ -33,9 +36,10 @@ description: Use when Codex receives a generic Rest Assured or service-testing r
 8. Use `../virtualization/SKILL.md` for WireMock and fault injection.
 9. Use `../ci/SKILL.md` for pipeline work.
 10. Use `../documentation/report-bundle/SKILL.md` when the goal is to refresh the reporting set as one operation.
-11. Use `../documentation/*/SKILL.md` for documentation and diagnosis.
-12. Use `../transformers`, `../mappers`, or `../reporters` for external tools.
-13. When routing into test-case documentation, treat `docs/tests/<feature>/` as the canonical home for scenario-level docs and treat `docs/testing/` as index and reporting space.
+11. Use `../documentation/*/SKILL.md` for documentation and diagnosis that is not test-case formatting.
+12. Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` for test-case formatting and export artifacts.
+13. Use `../mappers` or `../reporters` for external execution tools.
+14. When routing into test-case documentation, treat `docs/tests/<feature>/` as the canonical home for scenario-level docs and treat `docs/testing/` as index and reporting space.
 
 ## 3. Enforce the Sequence
 
@@ -59,7 +63,7 @@ description: Use when Codex receives a generic Rest Assured or service-testing r
 4. Input: `Check whether the narrative docs still match the API tests.`
    Output: Route to `../documentation/documentation-sync/SKILL.md`.
 5. Input: `Document these approved payment scenarios, but keep each scenario separate.`
-   Output: Route to the requested test-case format skill and store the canonical files under `docs/tests/payments/`.
+   Output: Route to `C:\projects\skills\test-artifact-export-skill\SKILL.md` and store the canonical files under `docs/tests/payments/`.
 
 ## 6. Troubleshooting
 

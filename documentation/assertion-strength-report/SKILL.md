@@ -1,6 +1,9 @@
 ---
 name: restassured-documentation-assertion-strength-report
 description: Use when Codex needs to assess whether Rest Assured tests are weak, moderate, or strong based on the assertions they make, the amount of API behavior they verify, and whether they go beyond status-code checks.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Build Assertion Strength Report

@@ -1,6 +1,9 @@
 ---
 name: restassured-documentation-root-cause
 description: Use when Codex needs to analyze failing Rest Assured API tests, identify the most likely root cause, and produce a developer-focused failure diagnosis.
+metadata:
+  author: jovd83
+  version: "1.0"
 ---
 
 # Root Cause Analysis
