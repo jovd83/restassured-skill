@@ -1,5 +1,10 @@
 # Rest Assured Skill Guides
 
+[![Validate Skills](https://github.com/jovd83/RestAssured-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/jovd83/RestAssured-skill/actions/workflows/validate.yml)
+[![version](https://img.shields.io/badge/version-1.0-blue)](CHANGELOG.md)
+[![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
+
 Battle-tested Rest Assured and service-testing skills for REST APIs, contract analysis, documentation, CI, and reporting. **41 skills** covering bootstrap, execution, planning, virtualization, traceability, and test-management integrations.
 
 ## What are Agent Skills?
