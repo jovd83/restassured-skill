@@ -70,13 +70,13 @@ metadata:
 9. Input: `Compare these two API contracts and tell me which tests are affected.`
    Output: Use `documentation/openapi-change-impact-report`.
 10. Input: `Tell me which Rest Assured tests are weak or only assert status codes.`
-   Output: Use `documentation/assertion-strength-report`.
+    Output: Use `documentation/assertion-strength-report`.
 11. Input: `Refresh the full human-readable reporting set for this API module.`
-   Output: Use `documentation/report-bundle`.
+    Output: Use `documentation/report-bundle`.
 12. Input: `Check whether the TDD, BDD, or plain-text case files drifted away from the tests.`
-   Output: Use `documentation/documentation-sync`.
+    Output: Use `documentation/documentation-sync`.
 13. Input: `Document the approved owner API scenarios as TDD.`
-   Output: Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` and write one canonical file per scenario under `docs/tests/owner/`.
+    Output: Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` and write one canonical file per scenario under `docs/tests/owner/`.
 
 ## 5. Troubleshooting
 
@@ -92,3 +92,12 @@ metadata:
    Fix: Run `python scripts/validate_skill_family.py`.
 6. Problem: The mapping report points to aggregate documentation files instead of scenario-level artifacts.
    Fix: Move canonical narrative docs into `docs/tests/<feature>/` and update traceability to point to the scenario files, not only the index.
+
+## 6. Gotchas
+
+1. **Static Pollution:** `RestAssured.baseURI`, `port`, and `config` are static and persist across tests. Always reset them in `@AfterEach` or use `RequestSpecification` objects to avoid leaking state between test classes.
+2. **Missing Content-Type:** Passing a DTO (POJO) to `.body()` does not automatically set `Content-Type: application/json`. Explicitly set the format via `.contentType(ContentType.JSON)` to avoid `415 Unsupported Media Type` errors.
+3. **Logging Sensitive Data:** `.log().all()` captures everything, including Authorization headers and tokens. Use `.log().ifValidationFails()` or custom filters to redact sensitive information in CI/CD logs.
+4. **Hamcrest Matcher Conflicts:** `org.hamcrest.Matchers` contains many common method names. Be careful with static imports if using other assertion libraries like AssertJ to avoid compilation errors or confusing IDE suggestions.
+5. **JSON Path vs XML Path:** Rest Assured uses different GPath-like syntaxes for JSON and XML. A valid JSON path expression may not work for XML and vice-versa.
+6. **Path Parameters Ordering:** When using unnamed path parameters (e.g., `.get("/{id}/{name}", 123, "test")`), the order is strict. Prefer named path parameters for clarity and robustness.
