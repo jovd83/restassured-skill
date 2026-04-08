@@ -4,6 +4,14 @@ description: Use when Codex needs to derive service-test scenarios from WSDL or 
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: soap-contract-analysis, restassured-soap-contract-analysis
+  dispatcher-accepted-intents: analyze_soap_contract
+  dispatcher-input-artifacts: wsdl_contract, repo_context
+  dispatcher-output-artifacts: contract_analysis, api_test_candidates, open_questions
+  dispatcher-stack-tags: restassured, analysis, soap
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Analyze SOAP Contracts

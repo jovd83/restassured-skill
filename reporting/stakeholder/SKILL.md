@@ -4,6 +4,14 @@ description: Use when Codex needs to summarize Rest Assured API test execution f
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: stakeholder-reporting, api-stakeholder-reporting
+  dispatcher-accepted-intents: summarize_api_test_results
+  dispatcher-input-artifacts: execution_results, tested_scope, release_context
+  dispatcher-output-artifacts: stakeholder_summary, release_health_report
+  dispatcher-stack-tags: restassured, reporting, stakeholder
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Stakeholder Reporting

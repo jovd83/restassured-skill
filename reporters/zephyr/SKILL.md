@@ -4,6 +4,14 @@ description: Use when Codex needs to report Rest Assured API test execution resu
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: test-management-reporting, api-test-management-reporting
+  dispatcher-accepted-intents: report_api_test_results
+  dispatcher-input-artifacts: execution_results, test_management_config, mappings
+  dispatcher-output-artifacts: published_results, reporting_summary
+  dispatcher-stack-tags: restassured, reporting, test-management
+  dispatcher-risk: medium
+  dispatcher-writes-files: true
 ---
 
 # Report Results To Zephyr

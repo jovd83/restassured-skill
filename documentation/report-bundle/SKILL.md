@@ -4,6 +4,14 @@ description: Use when Codex needs to generate or refresh a bundled Rest Assured 
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: report-bundling, api-report-bundle
+  dispatcher-accepted-intents: generate_api_report_bundle
+  dispatcher-input-artifacts: coverage_artifacts, test_suite, narrative_docs
+  dispatcher-output-artifacts: report_bundle, html_portal, summary_report
+  dispatcher-stack-tags: restassured, documentation, reporting
+  dispatcher-risk: medium
+  dispatcher-writes-files: true
 ---
 
 # Build Report Bundle

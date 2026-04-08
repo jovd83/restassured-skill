@@ -4,6 +4,14 @@ description: Use when Codex needs to add human-readable documentation to Rest As
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: automation-documentation, api-test-documentation
+  dispatcher-accepted-intents: document_api_tests
+  dispatcher-input-artifacts: test_suite, repo_context, traceability_artifacts
+  dispatcher-output-artifacts: automation_docs, documentation_update
+  dispatcher-stack-tags: restassured, documentation, automation
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Document Automation Code

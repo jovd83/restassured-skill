@@ -4,6 +4,14 @@ description: Use when Codex needs to set up IntelliJ IDEA for Rest Assured API t
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: editor-setup, api-test-editor-setup
+  dispatcher-accepted-intents: setup_api_test_editor
+  dispatcher-input-artifacts: editor_choice, repo_context, local_environment
+  dispatcher-output-artifacts: editor_setup_steps, configuration_guidance
+  dispatcher-stack-tags: restassured, setup, editor
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Install Rest Assured In IntelliJ

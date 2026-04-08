@@ -4,6 +4,14 @@ description: Use when Codex needs to keep Rest Assured API coverage plans, requi
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: coverage-maintenance, restassured-coverage-sync
+  dispatcher-accepted-intents: sync_api_coverage_artifacts
+  dispatcher-input-artifacts: coverage_plan, test_suite, traceability_artifacts
+  dispatcher-output-artifacts: updated_coverage_artifacts, sync_report
+  dispatcher-stack-tags: restassured, coverage, sync
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Auto-Sync Coverage

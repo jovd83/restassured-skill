@@ -4,6 +4,14 @@ description: Use when Codex needs to persist a durable resume checkpoint for Res
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: session-state, api-test-session-state
+  dispatcher-accepted-intents: record_api_test_session_state
+  dispatcher-input-artifacts: work_state, touched_files, blockers
+  dispatcher-output-artifacts: session_state_record, resume_pointer
+  dispatcher-stack-tags: restassured, session-state, operations
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Persist Session State

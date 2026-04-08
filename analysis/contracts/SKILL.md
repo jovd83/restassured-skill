@@ -4,6 +4,14 @@ description: Use when Codex needs to derive Rest Assured test scenarios from Ope
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: contract-analysis, restassured-contract-analysis
+  dispatcher-accepted-intents: analyze_api_contract
+  dispatcher-input-artifacts: api_contract, openapi_spec, repo_context
+  dispatcher-output-artifacts: contract_analysis, api_test_candidates, open_questions
+  dispatcher-stack-tags: restassured, analysis, contract
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Analyze REST Contracts

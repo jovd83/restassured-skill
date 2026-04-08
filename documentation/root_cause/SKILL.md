@@ -4,6 +4,14 @@ description: Use when Codex needs to analyze failing Rest Assured API tests, ide
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: failure-analysis, api-root-cause
+  dispatcher-accepted-intents: analyze_api_test_failure
+  dispatcher-input-artifacts: failure_output, repo_context, test_artifacts
+  dispatcher-output-artifacts: root_cause_report, failure_summary
+  dispatcher-stack-tags: restassured, diagnostics, failure-analysis
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Root Cause Analysis

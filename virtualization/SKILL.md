@@ -4,6 +4,14 @@ description: Use when Codex needs to simulate downstream HTTP services for Rest 
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: service-virtualization, api-dependency-virtualization
+  dispatcher-accepted-intents: virtualize_api_dependencies
+  dispatcher-input-artifacts: dependency_contract, virtualization_scope, repo_context
+  dispatcher-output-artifacts: virtualization_config, test_stubs, guidance
+  dispatcher-stack-tags: restassured, virtualization, api-testing
+  dispatcher-risk: medium
+  dispatcher-writes-files: true
 ---
 
 # Service Virtualization

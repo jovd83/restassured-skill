@@ -4,6 +4,14 @@ description: Use when Codex needs to scaffold, retrofit, or normalize a Java Res
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: test-bootstrap, restassured-bootstrap
+  dispatcher-accepted-intents: bootstrap_api_test_module
+  dispatcher-input-artifacts: repo_context, build_tool, target_module
+  dispatcher-output-artifacts: bootstrap_changes, smoke_test, setup_guidance
+  dispatcher-stack-tags: restassured, bootstrap, api-testing
+  dispatcher-risk: high
+  dispatcher-writes-files: true
 ---
 
 # Bootstrap Rest Assured

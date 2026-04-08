@@ -4,6 +4,14 @@ description: Legacy Rest Assured-specific alias for TestRail case export. Prefer
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: test-artifact-formatting, api-legacy-export-transform
+  dispatcher-accepted-intents: render_test_artifact, export_test_cases
+  dispatcher-input-artifacts: approved_test_cases, normalized_test_case_model, destination_constraints
+  dispatcher-output-artifacts: transformed_test_artifact, export_bundle
+  dispatcher-stack-tags: restassured, transform, legacy-alias
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Transform Cases For TestRail

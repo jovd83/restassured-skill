@@ -4,6 +4,14 @@ description: Use when Codex needs to implement, refactor, debug, or extend Rest 
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: api-automation, restassured-core, api-test-implementation
+  dispatcher-accepted-intents: implement_api_confirmation_test, debug_api_test, review_api_test
+  dispatcher-input-artifacts: repo_context, requirements, api_contract, failing_api_scenario
+  dispatcher-output-artifacts: api_test, implementation_guidance, fix_plan
+  dispatcher-stack-tags: restassured, api-testing, implementation
+  dispatcher-risk: high
+  dispatcher-writes-files: true
 ---
 
 # Rest Assured Core

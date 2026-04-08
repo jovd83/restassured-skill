@@ -4,6 +4,14 @@ description: Use when Codex needs to highlight uncovered, partial, drift-only, o
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: coverage-gap-analysis, api-coverage-gap-reporting
+  dispatcher-accepted-intents: report_api_coverage_gaps
+  dispatcher-input-artifacts: coverage_plan, test_suite, traceability_artifacts
+  dispatcher-output-artifacts: coverage_gap_report, risk_summary
+  dispatcher-stack-tags: restassured, documentation, coverage
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Build Coverage Gap Report

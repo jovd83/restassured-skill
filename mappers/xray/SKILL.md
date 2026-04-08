@@ -4,6 +4,14 @@ description: Use when Codex needs to map Xray issue keys or execution references
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: test-management-mapping, api-test-management-mapping
+  dispatcher-accepted-intents: map_api_test_management_ids
+  dispatcher-input-artifacts: test_management_ids, local_artifacts, repo_context
+  dispatcher-output-artifacts: mapped_traceability_artifacts, mapping_report
+  dispatcher-stack-tags: restassured, mapping, test-management
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Map Xray IDs

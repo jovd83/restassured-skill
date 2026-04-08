@@ -4,6 +4,14 @@ description: Use when Codex needs to produce a traceability report that maps API
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: traceability-reporting, api-traceability-reporting
+  dispatcher-accepted-intents: generate_api_traceability_report
+  dispatcher-input-artifacts: coverage_plan, test_suite, narrative_docs
+  dispatcher-output-artifacts: traceability_report, coverage_map
+  dispatcher-stack-tags: restassured, documentation, traceability
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Build Traceability Report

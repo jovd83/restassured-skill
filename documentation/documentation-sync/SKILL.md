@@ -4,6 +4,14 @@ description: Use when Codex needs to keep Rest Assured narrative documentation s
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: documentation-sync, api-documentation-sync
+  dispatcher-accepted-intents: sync_api_test_docs
+  dispatcher-input-artifacts: test_suite, narrative_docs, traceability_artifacts
+  dispatcher-output-artifacts: documentation_sync_report, updated_docs
+  dispatcher-stack-tags: restassured, documentation, sync
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Sync Narrative Documentation

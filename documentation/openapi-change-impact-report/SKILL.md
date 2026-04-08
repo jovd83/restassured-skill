@@ -4,6 +4,14 @@ description: Use when Codex needs to compare two OpenAPI or Swagger contracts, i
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: change-impact-analysis, openapi-change-impact
+  dispatcher-accepted-intents: analyze_openapi_change_impact
+  dispatcher-input-artifacts: old_contract, new_contract, coverage_artifacts
+  dispatcher-output-artifacts: change_impact_report, impacted_tests
+  dispatcher-stack-tags: restassured, documentation, contract
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Build OpenAPI Change Impact Report

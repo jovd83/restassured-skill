@@ -4,6 +4,14 @@ description: Legacy Rest Assured-specific alias for TDD-style case documentation
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: test-artifact-formatting, restassured-legacy-test-case-formatting
+  dispatcher-accepted-intents: render_test_artifact, export_test_cases
+  dispatcher-input-artifacts: approved_test_cases, normalized_test_case_model, scenario_list
+  dispatcher-output-artifacts: formatted_test_artifact, export_ready_case_set
+  dispatcher-stack-tags: restassured, documentation, legacy-alias
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Document Test Cases In TDD

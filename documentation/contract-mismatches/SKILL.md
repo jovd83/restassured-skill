@@ -4,6 +4,14 @@ description: Use when Codex needs to document differences between an API contrac
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: contract-mismatch-analysis, api-contract-mismatch-analysis
+  dispatcher-accepted-intents: analyze_api_contract_mismatches
+  dispatcher-input-artifacts: api_contract, runtime_evidence, mismatch_rows
+  dispatcher-output-artifacts: contract_mismatch_report, drift_summary
+  dispatcher-stack-tags: restassured, documentation, contract
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Document Contract Mismatches

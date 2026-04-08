@@ -4,6 +4,14 @@ description: Use when Codex needs to assess whether Rest Assured tests are weak,
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: assertion-review, api-assertion-strength-review
+  dispatcher-accepted-intents: assess_api_assertion_strength
+  dispatcher-input-artifacts: api_test_suite, repo_context
+  dispatcher-output-artifacts: assertion_strength_report, review_findings
+  dispatcher-stack-tags: restassured, documentation, review
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Build Assertion Strength Report

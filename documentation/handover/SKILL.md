@@ -4,6 +4,14 @@ description: Use when Codex needs to produce a concise handover for completed Re
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: handover, api-test-handover
+  dispatcher-accepted-intents: create_api_test_handover
+  dispatcher-input-artifacts: work_summary, validation_status, blockers
+  dispatcher-output-artifacts: handover_document, resume_steps
+  dispatcher-stack-tags: restassured, handover, operations
+  dispatcher-risk: low
+  dispatcher-writes-files: true
 ---
 
 # Handover

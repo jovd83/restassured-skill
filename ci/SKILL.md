@@ -4,6 +4,14 @@ description: Use when Codex needs to configure or troubleshoot Rest Assured API 
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: ci-configuration, restassured-ci
+  dispatcher-accepted-intents: configure_api_test_ci, optimize_api_test_execution
+  dispatcher-input-artifacts: repo_context, ci_pipeline, test_module
+  dispatcher-output-artifacts: ci_guidance, execution_plan, pipeline_update
+  dispatcher-stack-tags: restassured, ci, api-testing
+  dispatcher-risk: medium
+  dispatcher-writes-files: true
 ---
 
 # Rest Assured CI
