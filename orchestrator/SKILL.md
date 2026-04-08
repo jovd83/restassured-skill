@@ -4,6 +4,14 @@ description: Use when Codex receives a generic Rest Assured or service-testing r
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: api-test-orchestration, restassured-routing
+  dispatcher-accepted-intents: route_api_testing_work, orchestrate_restassured_task
+  dispatcher-input-artifacts: user_request, repo_context, api_requirements, api_contract, failure_output
+  dispatcher-output-artifacts: routing_decision, routing_request, execution_plan
+  dispatcher-stack-tags: restassured, orchestration, api-testing
+  dispatcher-risk: medium
+  dispatcher-writes-files: false
 ---
 
 # Rest Assured Orchestrator
@@ -37,7 +45,7 @@ metadata:
 9. Use `../ci/SKILL.md` for pipeline work.
 10. Use `../documentation/report-bundle/SKILL.md` when the goal is to refresh the reporting set as one operation.
 11. Use `../documentation/*/SKILL.md` for documentation and diagnosis that is not test-case formatting.
-12. Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` for test-case formatting and export artifacts.
+12. Dispatch `render_test_artifact` through `skill-dispatcher` for test-case formatting and export artifacts. Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` only as a compatibility fallback.
 13. Use `../mappers` or `../reporters` for external execution tools.
 14. When routing into test-case documentation, treat `docs/tests/<feature>/` as the canonical home for scenario-level docs and treat `docs/testing/` as index and reporting space.
 
@@ -63,7 +71,7 @@ metadata:
 4. Input: `Check whether the narrative docs still match the API tests.`
    Output: Route to `../documentation/documentation-sync/SKILL.md`.
 5. Input: `Document these approved payment scenarios, but keep each scenario separate.`
-   Output: Route to `C:\projects\skills\test-artifact-export-skill\SKILL.md` and store the canonical files under `docs/tests/payments/`.
+   Output: Route to dispatcher intent `render_test_artifact` and store the canonical files under `docs/tests/payments/`.
 
 ## 6. Troubleshooting
 
@@ -73,3 +81,5 @@ metadata:
    Fix: Proceed only if the requested tests are already enumerated or narrow enough to infer safely.
 3. Problem: Documentation requests default to one oversized markdown file.
    Fix: Split TDD and plain-text docs into one scenario file per behavior and use feature files only where BDD grouping adds value.
+4. Problem: The target exporter skill changes or is temporarily unavailable.
+   Fix: Go through `skill-dispatcher` first and treat the direct exporter path as fallback only.

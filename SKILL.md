@@ -4,6 +4,14 @@ description: Use when Codex needs to design, implement, run, document, or report
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: api-automation, restassured, api-test-planning, api-test-reporting
+  dispatcher-accepted-intents: implement_api_confirmation_test, plan_api_test_coverage, document_api_tests, report_api_test_results
+  dispatcher-input-artifacts: repo_context, api_requirements, api_contract, approved_test_cases, failing_api_scenario
+  dispatcher-output-artifacts: restassured_test, coverage_plan, api_test_docs, traceability_report, routing_request
+  dispatcher-stack-tags: restassured, api-testing, junit5
+  dispatcher-risk: high
+  dispatcher-writes-files: true
 ---
 
 # Rest Assured Skill
@@ -25,6 +33,15 @@ metadata:
 13. Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` for narrative test-case formatting and export artifacts.
 14. Use `mappers/`, `reporters/`, and `reporting/stakeholder/` for execution reporting and stakeholder workflows.
 15. Prefer canonical narrative docs under `docs/tests/<feature>/`; keep `docs/testing/` for reports, indexes, and generated human-readable portals.
+
+## 1a. Dispatcher Integration
+
+Use `skill-dispatcher` as the primary integration layer whenever this skill family needs help from another skill or when a broader orchestrator is deciding whether Rest Assured is the right execution layer.
+
+1. Prefer dispatcher-led routing by intent, especially for `implement_api_confirmation_test`, `plan_api_test_coverage`, `render_test_artifact`, and `report_api_test_results`.
+2. Prefer the repository's native API test stack over a new Rest Assured introduction when repo evidence points elsewhere.
+3. Treat direct paths to sibling skills as a compatibility fallback, not as the primary integration contract.
+4. Keep shared-memory usage limited to stable cross-project policy supplied externally, never task-local routing state.
 
 ## 2. Golden Rules
 
@@ -56,7 +73,7 @@ metadata:
 2. Input: `Set up a Maven JUnit 5 Rest Assured module in this repo.`
    Output: Use `bootstrap`.
 3. Input: `Document the approved API scenarios as BDD and export them for Xray.`
-   Output: Use `C:\projects\skills\test-artifact-export-skill\SKILL.md`.
+   Output: Dispatch `render_test_artifact` through `skill-dispatcher`, then fall back to `C:\projects\skills\test-artifact-export-skill\SKILL.md` when needed.
 4. Input: `The suite fails in CI only when the payment provider is down.`
    Output: Use `virtualization`, `ci`, and `documentation/root_cause`.
 5. Input: `Create a resumable checkpoint so another agent can continue tomorrow.`
@@ -76,7 +93,7 @@ metadata:
 12. Input: `Check whether the TDD, BDD, or plain-text case files drifted away from the tests.`
     Output: Use `documentation/documentation-sync`.
 13. Input: `Document the approved owner API scenarios as TDD.`
-    Output: Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` and write one canonical file per scenario under `docs/tests/owner/`.
+    Output: Dispatch `render_test_artifact` through `skill-dispatcher` and write one canonical file per scenario under `docs/tests/owner/`.
 
 ## 5. Troubleshooting
 
