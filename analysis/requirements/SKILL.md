@@ -4,6 +4,14 @@ description: Use when Codex needs to extract testable API behavior from epics, u
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: requirements-analysis, api-requirements-analysis, restassured-requirements-analysis
+  dispatcher-accepted-intents: analyze_api_requirements, derive_api_testable_behaviors
+  dispatcher-input-artifacts: requirements, user_story, acceptance_criteria, ticket, markdown_docs, repo_context
+  dispatcher-output-artifacts: analysis_baseline, requirement_summary, open_questions, routing_request
+  dispatcher-stack-tags: restassured, analysis, api-testing
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Analyze Requirements
@@ -43,3 +51,9 @@ metadata:
    Fix: Extract only the backend behavior that the API must enforce or expose.
 2. Problem: The requirements conflict with the contract.
    Fix: Surface the mismatch and request clarification before implementation.
+
+## 7. Handoff
+
+Use dispatcher intent `plan_api_test_coverage` when the next step is scenario planning.
+
+If dispatcher routing is unavailable, hand off to `../coverage_plan/generation/SKILL.md`.

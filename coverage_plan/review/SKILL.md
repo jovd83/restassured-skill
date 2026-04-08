@@ -4,6 +4,14 @@ description: Use when Codex needs to present a generated Rest Assured API covera
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: coverage-plan-review, api-coverage-review, restassured-coverage-review
+  dispatcher-accepted-intents: review_api_test_coverage_plan, approve_api_test_scope
+  dispatcher-input-artifacts: coverage_plan, scenario_matrix, approval_request
+  dispatcher-output-artifacts: approved_coverage_plan, deferred_scope, review_decision
+  dispatcher-stack-tags: restassured, coverage-planning, review
+  dispatcher-risk: low
+  dispatcher-writes-files: false
 ---
 
 # Review Coverage Plan

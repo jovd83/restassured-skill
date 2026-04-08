@@ -4,6 +4,14 @@ description: Use when Codex needs to generate a Rest Assured API test coverage p
 metadata:
   author: jovd83
   version: "1.0"
+  dispatcher-category: testing
+  dispatcher-capabilities: coverage-planning, api-coverage-planning, restassured-coverage-planning
+  dispatcher-accepted-intents: plan_api_test_coverage, generate_api_test_coverage_plan
+  dispatcher-input-artifacts: analysis_baseline, approved_requirements, api_contract, scope_constraints, repo_context
+  dispatcher-output-artifacts: coverage_plan, scenario_matrix, approval_request
+  dispatcher-stack-tags: restassured, coverage-planning, api-testing
+  dispatcher-risk: medium
+  dispatcher-writes-files: false
 ---
 
 # Generate Coverage Plan
@@ -40,8 +48,10 @@ metadata:
 1. Output a human-readable matrix.
 2. Start from [coverage-matrix-template.md](assets/coverage-matrix-template.md) when the user has not specified a different format.
 3. Keep the columns stable so later sync and reporting work can reuse the matrix.
-4. Hand the matrix to `../review/SKILL.md` for explicit approval.
+4. Hand the matrix to dispatcher intent `review_api_test_coverage_plan` for explicit approval.
 5. If mismatch scenarios exist, send the approved mismatch rows to `../../documentation/contract-mismatches/SKILL.md`.
+
+If dispatcher routing is unavailable, use `../review/SKILL.md` for approval.
 
 ## 5. Examples
 
