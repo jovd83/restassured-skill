@@ -16,6 +16,12 @@ metadata:
 
 # Document Test Cases In BDD
 
+
+## Telemetry & Logging
+> [!IMPORTANT]
+> All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
+> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
+
 ## 1. Store And Organize Files
 
 1. Store feature files under `docs/features/` or `docs/tests/features/`.

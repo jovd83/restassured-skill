@@ -2,8 +2,10 @@
 name: restassured-skill
 description: Use when Codex needs to design, implement, run, document, or report Rest Assured API tests for REST services, contract-driven service tests, JUnit 5 automation, CI pipelines, or test-management integrations.
 metadata:
+    dispatcher-layer: execution
+    dispatcher-lifecycle: active
   author: jovd83
-  version: "1.0"
+  version: "1.1"
   dispatcher-category: testing
   dispatcher-capabilities: api-automation, restassured, api-test-planning, api-test-reporting
   dispatcher-accepted-intents: implement_api_confirmation_test, plan_api_test_coverage, document_api_tests, report_api_test_results
@@ -15,6 +17,12 @@ metadata:
 ---
 
 # Rest Assured Skill
+
+
+## Telemetry & Logging
+> [!IMPORTANT]
+> All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
+> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
 
 ## 1. Start
 

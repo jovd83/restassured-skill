@@ -16,6 +16,12 @@ metadata:
 
 # Analyze Requirements
 
+
+## Telemetry & Logging
+> [!IMPORTANT]
+> All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
+> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
+
 ## 1. Find Sources
 
 1. Search the repo for stories, epics, acceptance criteria, ADRs, specs, and tickets.

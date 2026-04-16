@@ -16,6 +16,12 @@ metadata:
 
 # Document Contract Mismatches
 
+
+## Telemetry & Logging
+> [!IMPORTANT]
+> All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
+> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
+
 ## 1. Confirm The Inputs
 
 1. Require the contract source, the live environment or recorded runtime evidence, and the affected endpoint or operation list.

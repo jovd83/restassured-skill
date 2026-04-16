@@ -16,6 +16,12 @@ metadata:
 
 # Rest Assured Orchestrator
 
+
+## Telemetry & Logging
+> [!IMPORTANT]
+> All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
+> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
+
 ## 1. Clarify the Goal
 
 1. Ask for the primary goal if the user request is ambiguous.
