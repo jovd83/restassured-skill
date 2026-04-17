@@ -3,7 +3,7 @@ name: restassured-documentation-session-state
 description: Use when Codex needs to persist a durable resume checkpoint for Rest Assured API testing work so a human or later agent can see what is done, what is blocked, and exactly how to continue.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: session-state, api-test-session-state
   dispatcher-accepted-intents: record_api_test_session_state

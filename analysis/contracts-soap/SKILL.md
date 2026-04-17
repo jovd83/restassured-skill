@@ -3,7 +3,7 @@ name: restassured-analysis-contracts-soap
 description: Use when Codex needs to derive service-test scenarios from WSDL or SOAP contracts and translate them into HTTP and XML checks that can still be implemented with Rest Assured where appropriate.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: soap-contract-analysis, restassured-soap-contract-analysis
   dispatcher-accepted-intents: analyze_soap_contract

@@ -3,7 +3,7 @@ name: restassured-documentation-openapi-change-impact-report
 description: Use when Codex needs to compare two OpenAPI or Swagger contracts, identify added, removed, or changed operations and schemas, and map the impact back to existing Rest Assured coverage.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: change-impact-analysis, openapi-change-impact
   dispatcher-accepted-intents: analyze_openapi_change_impact

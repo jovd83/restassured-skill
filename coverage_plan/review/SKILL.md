@@ -3,7 +3,7 @@ name: restassured-coverage-plan-review
 description: Use when Codex needs to present a generated Rest Assured API coverage plan to the user, request explicit approval, and block implementation until the scope is confirmed.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: coverage-plan-review, api-coverage-review, restassured-coverage-review
   dispatcher-accepted-intents: review_api_test_coverage_plan, approve_api_test_scope

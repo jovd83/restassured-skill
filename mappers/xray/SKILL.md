@@ -3,7 +3,7 @@ name: restassured-mapper-xray
 description: Use when Codex needs to map Xray issue keys or execution references back to local Rest Assured API documentation or automation files.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: test-management-mapping, api-test-management-mapping
   dispatcher-accepted-intents: map_api_test_management_ids

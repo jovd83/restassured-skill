@@ -3,7 +3,7 @@ name: restassured-coverage-plan-generation
 description: Use when Codex needs to generate a Rest Assured API test coverage plan from approved requirements, OpenAPI or Swagger contracts, WSDL analysis, and explicit scope constraints.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: coverage-planning, api-coverage-planning, restassured-coverage-planning
   dispatcher-accepted-intents: plan_api_test_coverage, generate_api_test_coverage_plan

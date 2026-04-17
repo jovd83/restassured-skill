@@ -3,7 +3,7 @@ name: restassured-documentation-plaintext
 description: Legacy Rest Assured-specific alias for plain-text case formatting. Prefer the standalone `test-artifact-export-skill` skill for lightweight narrative case output, and use this only when Rest Assured-local conventions must be preserved explicitly.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: test-artifact-formatting, restassured-legacy-test-case-formatting
   dispatcher-accepted-intents: render_test_artifact, export_test_cases

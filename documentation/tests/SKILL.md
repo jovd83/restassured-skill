@@ -3,7 +3,7 @@ name: restassured-documentation-tests
 description: Use when Codex needs to add human-readable documentation to Rest Assured automation code, including class purpose, role boundaries, shared specs, and scenario intent.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: automation-documentation, api-test-documentation
   dispatcher-accepted-intents: document_api_tests

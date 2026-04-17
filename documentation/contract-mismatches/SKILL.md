@@ -3,7 +3,7 @@ name: restassured-documentation-contract-mismatches
 description: Use when Codex needs to document differences between an API contract and the observed live Rest Assured runtime behavior so humans and later agents can implement tests safely and track drift explicitly.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: contract-mismatch-analysis, api-contract-mismatch-analysis
   dispatcher-accepted-intents: analyze_api_contract_mismatches

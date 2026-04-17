@@ -3,7 +3,7 @@ name: restassured-analysis-contracts
 description: Use when Codex needs to derive Rest Assured test scenarios from OpenAPI or Swagger contracts, including endpoints, methods, schemas, auth rules, status codes, and error conditions.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: contract-analysis, restassured-contract-analysis
   dispatcher-accepted-intents: analyze_api_contract

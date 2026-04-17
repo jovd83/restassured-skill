@@ -3,7 +3,7 @@ name: restassured-core
 description: Use when Codex needs to implement, refactor, debug, or extend Rest Assured API tests with JUnit 5, reusable request and response specifications, authentication helpers, DTOs, contract checks, and service-test best practices.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: api-automation, restassured-core, api-test-implementation
   dispatcher-accepted-intents: implement_api_confirmation_test, debug_api_test, review_api_test

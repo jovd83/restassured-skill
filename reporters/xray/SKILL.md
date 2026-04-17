@@ -3,7 +3,7 @@ name: restassured-reporter-xray
 description: Use when Codex needs to report Rest Assured API test execution results back to Xray through its API using local case mappings and execution evidence.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: test-management-reporting, api-test-management-reporting
   dispatcher-accepted-intents: report_api_test_results

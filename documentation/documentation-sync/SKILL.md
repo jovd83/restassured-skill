@@ -3,7 +3,7 @@ name: restassured-documentation-sync
 description: Use when Codex needs to keep Rest Assured narrative documentation synchronized with endpoint traceability, coverage rows, and executable tests across BDD, TDD, plain-text, mixed, or partially documented API suites.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: documentation-sync, api-documentation-sync
   dispatcher-accepted-intents: sync_api_test_docs

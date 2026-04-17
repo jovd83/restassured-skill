@@ -3,7 +3,7 @@ name: restassured-coverage-plan-auto-sync
 description: Use when Codex needs to keep Rest Assured API coverage plans, requirements mappings, and test-case documentation synchronized as scenarios are added, removed, or renamed.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: coverage-maintenance, restassured-coverage-sync
   dispatcher-accepted-intents: sync_api_coverage_artifacts

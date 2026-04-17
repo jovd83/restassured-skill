@@ -3,7 +3,7 @@ name: restassured-documentation-handover
 description: Use when Codex needs to produce a concise handover for completed Rest Assured API testing work, including what changed, what remains open, and how to continue safely.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: handover, api-test-handover
   dispatcher-accepted-intents: create_api_test_handover

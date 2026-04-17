@@ -3,7 +3,7 @@ name: restassured-bootstrap
 description: Use when Codex needs to scaffold, retrofit, or normalize a Java Rest Assured test module with JUnit 5, Maven or Gradle, shared specifications, and an initial runnable smoke test.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: test-bootstrap, restassured-bootstrap
   dispatcher-accepted-intents: bootstrap_api_test_module

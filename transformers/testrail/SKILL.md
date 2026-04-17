@@ -3,7 +3,7 @@ name: restassured-transformer-testrail
 description: Legacy Rest Assured-specific alias for TestRail case export. Prefer the standalone `test-artifact-export-skill` skill for transforming approved test cases into TestRail-ready artifacts, and use this only when Rest Assured-local conventions must be preserved explicitly.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: test-artifact-formatting, api-legacy-export-transform
   dispatcher-accepted-intents: render_test_artifact, export_test_cases

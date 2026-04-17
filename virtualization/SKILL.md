@@ -3,7 +3,7 @@ name: restassured-virtualization
 description: Use when Codex needs to simulate downstream HTTP services for Rest Assured suites with WireMock, stub mappings, latency, retries, fault injection, or isolation from unstable third-party dependencies.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: service-virtualization, api-dependency-virtualization
   dispatcher-accepted-intents: virtualize_api_dependencies

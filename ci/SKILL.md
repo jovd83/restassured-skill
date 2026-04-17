@@ -3,7 +3,7 @@ name: restassured-ci
 description: Use when Codex needs to configure or troubleshoot Rest Assured API tests in CI pipelines, including JUnit 5 execution, tags, Docker, containers, artifacts, quality gates, and provider-specific pipeline examples.
 metadata:
   author: jovd83
-  version: "1.0"
+  version: '1.0'
   dispatcher-category: testing
   dispatcher-capabilities: ci-configuration, restassured-ci
   dispatcher-accepted-intents: configure_api_test_ci, optimize_api_test_execution

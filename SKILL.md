@@ -2,8 +2,8 @@
 name: restassured-skill
 description: Use when Codex needs to design, implement, run, document, or report Rest Assured API tests for REST services, contract-driven service tests, JUnit 5 automation, CI pipelines, or test-management integrations.
 metadata:
-    dispatcher-layer: execution
-    dispatcher-lifecycle: active
+  dispatcher-layer: execution
+  dispatcher-lifecycle: active
   author: jovd83
   version: "1.1"
   dispatcher-category: testing
