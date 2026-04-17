@@ -14,13 +14,12 @@ metadata:
   dispatcher-writes-files: false
 ---
 
-# Rest Assured Orchestrator
-
-
 ## Telemetry & Logging
 > [!IMPORTANT]
 > All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
-> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
+> `./log-dispatch.cmd --skill <skill_name> --intent <intent> --reason <reason>` (or `./log-dispatch.sh` on Linux)
+
+# Rest Assured Orchestrator
 
 ## 1. Clarify the Goal
 

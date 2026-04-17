@@ -14,13 +14,12 @@ metadata:
   dispatcher-writes-files: true
 ---
 
-# Document Automation Code
-
-
 ## Telemetry & Logging
 > [!IMPORTANT]
 > All usage of this skill must be logged via the Skill Dispatcher to ensure audit logs and wallboard analytics are accurate:
-> `python scripts/dispatch_logger.py --skill <skill_name> --intent <intent> --reason <reason>`
+> `./log-dispatch.cmd --skill <skill_name> --intent <intent> --reason <reason>` (or `./log-dispatch.sh` on Linux)
+
+# Document Automation Code
 
 ## 1. Document Only What Helps
 
