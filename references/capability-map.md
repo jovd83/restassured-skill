@@ -35,6 +35,4 @@
 | Produce a handover note | `documentation/handover/SKILL.md` |
 | Configure pipelines | `ci/SKILL.md` |
 | Produce stakeholder reports | `reporting/stakeholder/SKILL.md` |
-| Transform cases for test tools | `transformers/*/SKILL.md` |
-| Map external IDs to local docs | `mappers/*/SKILL.md` |
-| Report results back to a test tool | `reporters/*/SKILL.md` |
+| Transform cases for test tools, map external IDs to local docs, report results back to a test tool | the standalone `test-management-sync` skill |

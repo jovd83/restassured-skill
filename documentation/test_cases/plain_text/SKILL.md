@@ -1,6 +1,6 @@
 ---
 name: restassured-documentation-plaintext
-description: Legacy Rest Assured-specific alias for plain-text case formatting. Prefer the standalone `test-artifact-export-skill` skill for lightweight narrative case output, and use this only when Rest Assured-local conventions must be preserved explicitly.
+description: Legacy Rest Assured-specific alias for plain-text case formatting. Prefer the standalone `test-management-sync` skill for lightweight narrative case output, and use this only when Rest Assured-local conventions must be preserved explicitly.
 metadata:
   author: jovd83
   version: '1.0'

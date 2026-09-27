@@ -11,4 +11,4 @@
 | review the coverage plan | `coverage_plan/review` |
 | stub a provider | `virtualization` |
 | fix ci failures | `ci` and `documentation/root_cause` |
-| publish results to xray | `reporters/xray` |
+| publish results to xray | the `test-management-sync` skill (publish-results job) |

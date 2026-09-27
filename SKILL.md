@@ -5,7 +5,7 @@ metadata:
   dispatcher-layer: information
   dispatcher-lifecycle: active
   author: jovd83
-  version: "1.1"
+  version: "2.0.0"
   dispatcher-category: testing
   dispatcher-capabilities: api-automation, restassured, api-test-planning, api-test-reporting
   dispatcher-accepted-intents: implement_api_confirmation_test, plan_api_test_coverage, document_api_tests, report_api_test_results
@@ -32,8 +32,8 @@ metadata:
 10. Use `coverage_plan/review/SKILL.md` to request user approval before implementation.
 11. Use `documentation/` skills for TDD, BDD, plain-text, mixed or absent narrative documentation, documentation sync, code docs, root-cause writeups, traceability reports, coverage-gap reports, OpenAPI change-impact reports, assertion-strength reports, bundled report regeneration, contract-mismatch notes, session-state tracking, or handover.
 12. Use `ci/SKILL.md` for GitHub Actions, GitLab, Docker, tagging, parallelization, and artifacts.
-13. Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` for narrative test-case formatting and export artifacts.
-14. Use `mappers/`, `reporters/`, and `reporting/stakeholder/` for execution reporting and stakeholder workflows.
+13. Use the `test-management-sync` skill for narrative test-case formatting and export artifacts.
+14. Use the `test-management-sync` skill to map tool IDs into tests and publish results, and `reporting/stakeholder/` for stakeholder reports.
 15. Prefer canonical narrative docs under `docs/tests/<feature>/`; keep `docs/testing/` for reports, indexes, and generated human-readable portals.
 
 ## 1a. Working With Other Skills
@@ -70,7 +70,7 @@ metadata:
 2. Input: `Set up a Maven JUnit 5 Rest Assured module in this repo.`
    Output: Use `bootstrap`.
 3. Input: `Document the approved API scenarios as BDD and export them for Xray.`
-   Output: Dispatch `render_test_artifact` through `skill-dispatcher`, then fall back to `C:\projects\skills\test-artifact-export-skill\SKILL.md` when needed.
+   Output: Use the `test-management-sync` skill (export job).
 4. Input: `The suite fails in CI only when the payment provider is down.`
    Output: Use `virtualization`, `ci`, and `documentation/root_cause`.
 5. Input: `Create a resumable checkpoint so another agent can continue tomorrow.`
@@ -90,7 +90,7 @@ metadata:
 12. Input: `Check whether the TDD, BDD, or plain-text case files drifted away from the tests.`
     Output: Use `documentation/documentation-sync`.
 13. Input: `Document the approved owner API scenarios as TDD.`
-    Output: Dispatch `render_test_artifact` through `skill-dispatcher` and write one canonical file per scenario under `docs/tests/owner/`.
+    Output: Use the `test-management-sync` skill (export job) and write one canonical file per scenario under `docs/tests/owner/`.
 
 ## 5. Troubleshooting
 

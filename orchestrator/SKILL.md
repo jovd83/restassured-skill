@@ -45,8 +45,8 @@ metadata:
 9. Use `../ci/SKILL.md` for pipeline work.
 10. Use `../documentation/report-bundle/SKILL.md` when the goal is to refresh the reporting set as one operation.
 11. Use `../documentation/*/SKILL.md` for documentation and diagnosis that is not test-case formatting.
-12. Dispatch `render_test_artifact` through `skill-dispatcher` for test-case formatting and export artifacts. Use `C:\projects\skills\test-artifact-export-skill\SKILL.md` only as a compatibility fallback.
-13. Use `../mappers` or `../reporters` for external execution tools.
+12. Use the `test-management-sync` skill for test-case formatting and export artifacts.
+13. Use the `test-management-sync` skill to map tool IDs into tests and publish results to external test-management tools.
 14. When routing into test-case documentation, treat `docs/tests/<feature>/` as the canonical home for scenario-level docs and treat `docs/testing/` as index and reporting space.
 
 ## 3. Enforce the Sequence
@@ -81,5 +81,5 @@ metadata:
    Fix: Proceed only if the requested tests are already enumerated or narrow enough to infer safely.
 3. Problem: Documentation requests default to one oversized markdown file.
    Fix: Split TDD and plain-text docs into one scenario file per behavior and use feature files only where BDD grouping adds value.
-4. Problem: The target exporter skill changes or is temporarily unavailable.
-   Fix: Go through `skill-dispatcher` first and treat the direct exporter path as fallback only.
+4. Problem: The `test-management-sync` skill is not installed.
+   Fix: Install it; do not recreate export, mapping or reporting logic inside this pack.

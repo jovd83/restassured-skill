@@ -1,7 +1,7 @@
 # Rest Assured Skill Guides
 
 [![Validate Skills](https://github.com/jovd83/restassured-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/jovd83/restassured-skill/actions/workflows/ci.yml)
-[![version](https://img.shields.io/badge/version-1.0-blue)](CHANGELOG.md)
+[![version](https://img.shields.io/badge/version-2.0.0-blue)](CHANGELOG.md)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
 
@@ -55,9 +55,7 @@ npx skills add jovd83/restassured-skill/documentation/test_cases/plain_text
 
 ```bash
 npx skills add jovd83/restassured-skill/reporting/stakeholder
-npx skills add jovd83/restassured-skill/transformers/xray
-npx skills add jovd83/restassured-skill/mappers/xray
-npx skills add jovd83/restassured-skill/reporters/xray
+npx skills add jovd83/test-management-sync
 npx skills add jovd83/restassured-skill/installers/vscode-codex
 npx skills add jovd83/restassured-skill/installers/intellij-junie
 ```
@@ -113,9 +111,6 @@ documentation/
 virtualization/
 ci/
 reporting/
-transformers/
-mappers/
-reporters/
 installers/
 scripts/
 references/

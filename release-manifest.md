@@ -3,7 +3,7 @@
 ## Summary
 
 - Root: `C:\projects\skills\RestAssured-skill`
-- Skills: 41
+- Skills: 29
 
 ## Skills
 
@@ -34,19 +34,7 @@
 | `restassured-documentation-traceability-report` | Traceability Report | `C:\projects\skills\RestAssured-skill\documentation\traceability-report` | Map endpoints to Rest Assured tests and documentation artifacts |
 | `restassured-installer-intellij-junie` | IntelliJ + Junie Setup | `C:\projects\skills\RestAssured-skill\installers\intellij-junie` | Set up IntelliJ for Rest Assured work |
 | `restassured-installer-vscode-codex` | VS Code + Codex Setup | `C:\projects\skills\RestAssured-skill\installers\vscode-codex` | Set up VS Code for Rest Assured work |
-| `restassured-mapper-testlink` | Map TestLink IDs | `C:\projects\skills\RestAssured-skill\mappers\testlink` | Map TestLink IDs to local API cases |
-| `restassured-mapper-testrail` | Map TestRail IDs | `C:\projects\skills\RestAssured-skill\mappers\testrail` | Map TestRail IDs to local API cases |
-| `restassured-mapper-xray` | Map Xray IDs | `C:\projects\skills\RestAssured-skill\mappers\xray` | Map Xray IDs to local API cases |
-| `restassured-mapper-zephyr` | Map Zephyr IDs | `C:\projects\skills\RestAssured-skill\mappers\zephyr` | Map Zephyr IDs to local API cases |
 | `restassured-orchestrator` | Rest Assured Orchestrator | `C:\projects\skills\RestAssured-skill\orchestrator` | Route Rest Assured testing workflows |
-| `restassured-reporter-testlink` | Report to TestLink | `C:\projects\skills\RestAssured-skill\reporters\testlink` | Publish API results to TestLink |
-| `restassured-reporter-testrail` | Report to TestRail | `C:\projects\skills\RestAssured-skill\reporters\testrail` | Publish API results to TestRail |
-| `restassured-reporter-xray` | Report to Xray | `C:\projects\skills\RestAssured-skill\reporters\xray` | Publish API results to Xray |
-| `restassured-reporter-zephyr` | Report to Zephyr | `C:\projects\skills\RestAssured-skill\reporters\zephyr` | Publish API results to Zephyr |
 | `restassured-reporting-stakeholder` | Stakeholder Reporting | `C:\projects\skills\RestAssured-skill\reporting\stakeholder` | Summarize API results for stakeholders |
 | `restassured-skill` | Rest Assured Skill | `C:\projects\skills\RestAssured-skill` | Rest Assured API testing skill family |
-| `restassured-transformer-testlink` | Transform for TestLink | `C:\projects\skills\RestAssured-skill\transformers\testlink` | Export API cases to TestLink format |
-| `restassured-transformer-testrail` | Transform for TestRail | `C:\projects\skills\RestAssured-skill\transformers\testrail` | Export API cases to TestRail format |
-| `restassured-transformer-xray` | Transform for Xray | `C:\projects\skills\RestAssured-skill\transformers\xray` | Export API cases to Xray format |
-| `restassured-transformer-zephyr` | Transform for Zephyr | `C:\projects\skills\RestAssured-skill\transformers\zephyr` | Export API cases to Zephyr format |
 | `restassured-virtualization` | Service Virtualization | `C:\projects\skills\RestAssured-skill\virtualization` | Stub downstream APIs with WireMock |
