@@ -36,14 +36,9 @@ metadata:
 14. Use `mappers/`, `reporters/`, and `reporting/stakeholder/` for execution reporting and stakeholder workflows.
 15. Prefer canonical narrative docs under `docs/tests/<feature>/`; keep `docs/testing/` for reports, indexes, and generated human-readable portals.
 
-## 1a. Dispatcher Integration
+## 1a. Working With Other Skills
 
-Use `skill-dispatcher` as the primary integration layer whenever this skill family needs help from another skill or when a broader orchestrator is deciding whether Rest Assured is the right execution layer.
-
-1. Prefer dispatcher-led routing by intent, especially for `implement_api_confirmation_test`, `plan_api_test_coverage`, `render_test_artifact`, and `report_api_test_results`.
-2. Prefer the repository's native API test stack over a new Rest Assured introduction when repo evidence points elsewhere.
-3. Treat direct paths to sibling skills as a compatibility fallback, not as the primary integration contract.
-4. Keep shared-memory usage limited to stable cross-project policy supplied externally, never task-local routing state.
+1. Prefer the repository's native API test stack over a new Rest Assured introduction when repo evidence points elsewhere.
 
 ## 2. Golden Rules
 
