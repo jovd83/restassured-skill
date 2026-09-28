@@ -1,6 +1,6 @@
 ---
 name: restassured-documentation-tests
-description: Use when Codex needs to add human-readable documentation to Rest Assured automation code, including class purpose, role boundaries, shared specs, and scenario intent.
+description: Use when the agent needs to add human-readable documentation to Rest Assured automation code, including class purpose, role boundaries, shared specs, and scenario intent.
 metadata:
   author: jovd83
   version: '1.0'

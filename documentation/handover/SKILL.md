@@ -1,6 +1,6 @@
 ---
 name: restassured-documentation-handover
-description: Use when Codex needs to produce a concise handover for completed Rest Assured API testing work, including what changed, what remains open, and how to continue safely.
+description: Use when the agent needs to produce a concise handover for completed Rest Assured API testing work, including what changed, what remains open, and how to continue safely.
 metadata:
   author: jovd83
   version: '1.0'

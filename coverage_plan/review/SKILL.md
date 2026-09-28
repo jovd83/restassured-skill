@@ -1,6 +1,6 @@
 ---
 name: restassured-coverage-plan-review
-description: Use when Codex needs to present a generated Rest Assured API coverage plan to the user, request explicit approval, and block implementation until the scope is confirmed.
+description: Use when the agent needs to present a generated Rest Assured API coverage plan to the user, request explicit approval, and block implementation until the scope is confirmed.
 metadata:
   author: jovd83
   version: '1.0'

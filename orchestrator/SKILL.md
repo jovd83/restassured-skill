@@ -1,6 +1,6 @@
 ---
 name: restassured-orchestrator
-description: Use when Codex receives a generic Rest Assured or service-testing request and must route the work into planning, implementation, documentation, execution, CI, virtualization, or test-management flows.
+description: Use when the agent receives a generic Rest Assured or service-testing request and must route the work into planning, implementation, documentation, execution, CI, virtualization, or test-management flows.
 metadata:
   author: jovd83
   version: '1.0'

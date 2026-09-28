@@ -1,6 +1,6 @@
 ---
 name: restassured-documentation-coverage-gap-report
-description: Use when Codex needs to highlight uncovered, partial, drift-only, or weakly covered API areas so humans can prioritize the next Rest Assured work instead of reading the full traceability report.
+description: Use when the agent needs to highlight uncovered, partial, drift-only, or weakly covered API areas so humans can prioritize the next Rest Assured work instead of reading the full traceability report.
 metadata:
   author: jovd83
   version: '1.0'

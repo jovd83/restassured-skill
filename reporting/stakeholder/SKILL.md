@@ -1,6 +1,6 @@
 ---
 name: restassured-reporting-stakeholder
-description: Use when Codex needs to summarize Rest Assured API test execution for non-technical stakeholders in clear business terms instead of raw test runner output.
+description: Use when the agent needs to summarize Rest Assured API test execution for non-technical stakeholders in clear business terms instead of raw test runner output.
 metadata:
   author: jovd83
   version: '1.0'

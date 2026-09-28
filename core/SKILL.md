@@ -1,6 +1,6 @@
 ---
 name: restassured-core
-description: Use when Codex needs to implement, refactor, debug, or extend Rest Assured API tests with JUnit 5, reusable request and response specifications, authentication helpers, DTOs, contract checks, and service-test best practices.
+description: Use when the agent needs to implement, refactor, debug, or extend Rest Assured API tests with JUnit 5, reusable request and response specifications, authentication helpers, DTOs, contract checks, and service-test best practices.
 metadata:
   author: jovd83
   version: '1.0'

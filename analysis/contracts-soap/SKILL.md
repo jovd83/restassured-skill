@@ -1,6 +1,6 @@
 ---
 name: restassured-analysis-contracts-soap
-description: Use when Codex needs to derive service-test scenarios from WSDL or SOAP contracts and translate them into HTTP and XML checks that can still be implemented with Rest Assured where appropriate.
+description: Use when the agent needs to derive service-test scenarios from WSDL or SOAP contracts and translate them into HTTP and XML checks that can still be implemented with Rest Assured where appropriate.
 metadata:
   author: jovd83
   version: '1.0'
